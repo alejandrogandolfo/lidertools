@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practica</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0" >
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="practica.css">
+
+
+
+
+	<script type="text/javascript" src="proyectoherramientas/jquery-3.6.0.js"></script>
+	<script type="text/javascript" src="practicaJS.js"></script>
+</head>
+<body>
+	<div class="contenedor">
+		<section class="cabeza">
+			<h1>LiderTools .<span>&#160;</span></h1>
+
+		</section>
+
+
+
+
+		<header class="header">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="imagenes_Herramientas/lider.png" width="40px" height="40px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Marcas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" id="bremen" href="#">Bremen</a></li>
+            <li><a class="dropdown-item" href="#">Eurotech</a></li>
+            <li><a class="dropdown-item" href="#">Palladino</a></li>
+            <li><a class="dropdown-item" href="#">Lusqtoff</a></li>
+            <li><a class="dropdown-item" href="#">Gamma</a></li>
+            <li><a class="dropdown-item" href="#">Argentech</a></li>
+            <li><a class="dropdown-item" href="#">Rulmann</a></li>
+            <li><a class="dropdown-item" href="#">Davidson</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+		<div class="modal_container" id="modal_container">
+			<div class="ventana">
+				<img src="bremen.jpg">
+				<p>Bremen Germany</p>
+			</div>
+		</div>
+
+	
+			<i id="cerrar" class="far fa-window-close"></i>
+		
+
+
+
+	
+
+		</header>
+		<div class="slider">
+			<h2>NOVEDADES</h2>
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+		  			<div class="carousel-indicators">
+		    			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		    			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+		  			</div>
+		  			<div class="carousel-inner">
+		    			<div class="carousel-item active">
+		      				<img src="imagenes_Herramientas/valija.jpeg" class="d-block w-100" height="350px">
+		      				<h5>Valija Herramienta Lusqtoff</h5><br>
+		      				<div class="carousel-caption d-none d-md-block">
+		        
+		      				</div>
+		    			</div>
+		    			<div class="carousel-item">
+		      				<img src="imagenes_Herramientas/sillagamer.jpeg" class="d-block w-100" height="350px">
+		      				<h5>Silla Gamers</h5><br>
+		      				<div class="carousel-caption d-none d-md-block">
+		        				
+		        
+		      				</div>
+		    			</div>
+		    			<div class="carousel-item">
+		      				<img src="imagenes_Herramientas/termometro.jpeg" class="d-block w-100" height="350px">
+		      				<h5>termometro temperatura</h5><br>
+		      				<div class="carousel-caption d-none d-md-block">
+		        				
+		        
+		      				</div>
+
+		    			</div>
+		    			<div class="carousel-item">
+		    			<img src="imagenes_Herramientas/cajaherramientas.jpeg" class="d-block w-100" height="350px">
+		      				<h5>caja de Herramientas</h5><br>
+		      				<div class="carousel-caption d-none d-md-block">
+		        				
+		        
+		      				</div>
+		      			</div>
+		  			</div>
+		  			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+		    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    		<span class="visually-hidden">Previous</span>
+		  			</button>
+		  			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+		    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    		<span class="visually-hidden">Next</span>
+		  			</button>
+			    </div>
+		</div>	    
+
+
+	
+		<aside class="aside">
+			<a href="#" class="categoryItems" category = "todo">Todo</a><br>
+			<a href="#" class="categoryItems" category = "llaves">Llaves y destornilladores</a><br>
+			<a href="#" class="categoryItems" category = "pp">Puesta a Punto</a><br>
+			<a href="#" class="categoryItems" category = "electricidad">Electricidad</a><br>
+			<a href="#" class="categoryItems" category = "criques">Criques</a><br>
+			<a href="#" class="categoryItems" category = "scanner">Scanner</a><br>
+			<a href="#" class="categoryItems" category = "especiales">Herramientas Especiales</a><br>
+		</aside>
+
+		<main class="contenido">
+			<div class="productosItems"  id="imagen1" category = "especiales">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px">
+			<p>Pistola de Impacto 21 Gamma</p></div>
+			<div class="productosItems" id="imagen2" category = "especiales">
+			<img src="imagenes_Herramientas/morsa3t.jpeg" width="150px" height="200px">
+		    <p>Morsa 3T</p></div>
+			<div class="productosItems" id="imagen3" category = "llaves">
+			<img src="imagenes_Herramientas/destornilladoreseuro.jpeg" width="150px" height="200px"><p>Destornilladores Eurotech</p></div>
+			<div class="productosItems" id="imagen4" category = "llaves">
+			<img src="imagenes_Herramientas/destornilladoresdavid.jpeg" width="150px" height="200px"><p>Destornilladores Davidson</p></div>
+			<div class="productosItems" id="imagen5" category = "scanner">
+			<img src="imagenes_Herramientas/launch129.jpeg" width="150px" height="200px"><p>Scanner Launch 129</p></div>
+			<div class="productosItems" id="imagen6" category = "electricidad">
+			<img src="imagenes_Herramientas/probadores.jpeg" width="150px" height="200px"><p>Probador mariposa/puesta a punto</p></div>
+			<div class="productosItems" id="imagen7" category = "electricidad">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px"><p>Pistola de Impacto 21 Gamma</p></div>
+			<div class="productosItems" id="imagen8" category = "electricidad">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px"><p>Pistola de Impacto 21 Gamma</p></div>
+			<div class="productosItems" id="imagen9" category = "electricidad">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px"><p>Pistola de Impacto 21 Gamma</p></div>
+			<div class="productosItems" id="imagen10" category = "electricidad">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px"><p>Pistola de Impacto 21 Gamma</p></div>
+			<div class="productosItems" id="imagen11" category = "electricidad">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px"><p>Pistola de Impacto 21 Gamma</p></div>
+			<div class="productosItems" id="imagen12" category = "electricidad">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px"><p>Pistola de Impacto 21 Gamma</p></div>
+			<div class="productosItems" id="imagen13" category = "electricidad">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px"><p>Pistola de Impacto 21 Gamma</p></div>
+			<div class="productosItems" id="imagen14" category = "electricidad">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px"><p>Pistola de Impacto 21 Gamma</p></div>
+			<div class="productosItems" id="imagen15" category = "electricidad">
+			<img src="imagenes_Herramientas/pistolaimpactobateria21gamma.jpeg" width="150px" height="200px"><p>Pistola de Impacto 21 Gamma</p></div>
+			
+
+
+		</main>
+
+
+
+		<footer class="footer">
+			<div class="piepagina">
+				<div class="redes">
+					<h4>Seguinos</h4>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-twitter-square"></i>
+				</div>
+				<div class="info">
+					<h4>Informacion de contacto</h4>
+					<ul>
+					<li><i class="fas fa-mobile-alt"></i><p>1558699650</p></li>
+					<li><i class="fas fa-envelope-square"></i><p>alejandro.gandolfo@hotmail.com</p></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">
+			<p>Copyright © 2021 Lider Tools. Todos los derechos reservados<br>
+
+				Diseño y programación: Gandolfo Alejandro
+			</p>
+			</div>
+	
+
+
+		</footer>
+
+
+
+
+
+
+	</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+<script src="prueba.js"></script>
+
+</body>
+</html>
